@@ -1,0 +1,46 @@
+{
+  "red": {
+    "title": "The night we met",
+    "items": [
+      "A ce jour j'ai un peu du mal à croire que c'est dans ce contexte là qu'on s'est vus pour la première fois.",
+      "Sur le papier, il y avait tellement de circonstantiel qui s'opposait à l'idée qu'on se mette ensemble trois semaines plus tard.",
+      "Mais au final on s'était tellement bien trouvés qu'on a spontanément tout oublié pour laisser place à la magnifique relation qu'on partage aujourd'hui."
+    ],
+    "image":"static/images/red.jpg"
+  },
+  "orange": {
+    "title": "The last few days before I left",
+    "items": [
+      "Je pense que j'ai jamais été aussi stressé que les quelques jours avant mon départ, un tout nouveau monde, tellement de choses qui pouvait mal se passer, et toi, tellement loin...",
+      "Mais ta présence à mes côtés pendant ces dernières journées rendait les choses presque comfortables.",
+      "Tout allait mal, mais tu étais là, donc tout allait bien."
+    ],
+    "image":"static/images/orange.jpg"
+  },
+  "pink": {
+    "title": "Eiffel Tower Proposal",
+    "items": [
+      "Ce jour là, j'ai à la fois essayé de me dépasser et fait très peu d'effort parce que tout est venu très naturellement.",
+      "C'était peut-être une formalité pour toi mais pour moi c'était l'occasion de te montrer que mon engagement valait les artifices.",
+      "Etant donné que c'était nouveau pour moi de m'engager avec une fille, ce moment vaut le monde à mes yeux et je suis tellement ravi qu'on ait pu faire quelque chose d'aussi romantique."
+    ],
+    "image":"static/images/pink.jpg"
+  },
+  "blue": {
+    "title": "First movie night together",
+    "items": [
+      "Le soir où on est allés voir \"Une bataille après l'autre\" m'avait au début pas forcément chauffé plus que ça, c'était une bonne idée de date mais sans plus.",
+      "Mais ce soir là, quand on est sortis du cinéma, après avoir passé presque deux heures à te caresser la main, je t'ai vu.",
+      "Tu étais tellement belle, silencieuse mais rayonnante, marchant vers la sortie d'un pas décidé. A ce moment là je me suis senti submerger une fierté d'être l'homme que tu avais choisi, et je le garde précieusement ce sentiment près de mon coeur tous les jours."
+    ],
+    "image":"static/images/blue.jpg"
+  },
+  "white": {
+    "title": "La joue du loup",
+    "items": [
+      "Notre moment avec la montagne rien qu'à nous, tellement loins de la maison avec quelques jours pour profiter l'un de l'autre.",
+      "Entre toi et les paysages magnifiques pour m'éblouir les yeux, même le froid glacial n'aurait jamais pu empêcher mon coeur de se réchauffer d'un amour tellement intense."
+    ],
+    "image":"static/images/white.jpg"
+  }
+}

@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "Lucy";
+    src: url("./static/fonts/lucy.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Vend+Sans:wght@300&display=swap');
+
+body {
+    font-family: "Vend Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    background-color: #BF4342;
+    color: #E7D7C1;
+}
+
+.choose {
+    font-family: "Lucy";
+    margin: 0 auto;
+    margin-top: 50px;
+    width: fit-content;
+    font-size: 70px;
+    text-shadow: 3px 2px #3A2E2C;
+}
+
+.img-wrapper {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.lilies {
+    display: block;
+    height: 60vh;
+    background-color: #8C1C13;
+    border-radius: 20%;
+    box-shadow: 4px 4px #151414;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60vh;
+    pointer-events: none;
+}
+
+.zone {
+    fill: transparent;
+    stroke: transparent;
+    stroke-width: 2px;
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.zone:hover {
+    stroke: #E7D7C1;
+    stroke-width: 4;
+}
+
+.cross {
+    fill: #E7D7C1;
+}
+
+.cross-container {
+    width: 40px;
+    position: fixed;
+    padding: 15px;
+    background-color: #735751;
+    box-shadow: 4px 6px #3A2E2C;
+    border-radius: 50%;
+    left: 59%;
+    top: 7%;
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.cross-container:hover {
+    transform: translateY(5px);
+}
+
+.focus-card {
+    width: 50%;
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    height: 75vh;
+    background-color: #A78A7F;
+    border: 10px solid #735751;
+    box-shadow: 4px 8px #3A2E2C;
+    color: white;
+    z-index: 1;
+}
+
+.title {
+    font-family: "Lucy";
+    font-size: 90px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.content {
+    font-family: "Vend Sans";
+    font-size: 30px;
+    margin: 20px 10px;
+    height: 100%;
+    margin-top: 10%;
+}
+
+.polaroid {
+    width: 60%;
+    background: white;
+    padding: 10px;
+    padding-bottom: 70px;
+}
+
+.polaroid-container {
+    width: fit-content;
+    position: fixed;
+    top: 30%;
+    left: 60%;
+    transform: rotate(25deg);
+    z-index: 0;
+}
+
+.blur {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background-color: #2e1a18;
+    opacity: 80%;
+}
+
+.hidden {
+    display: none;
+}
+
